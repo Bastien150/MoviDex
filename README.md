@@ -41,26 +41,25 @@ Il permet de parcourir et d’afficher des informations sur des films, en utilis
 ## 📦 Installation et utilisation
 
 1. **Cloner le dépôt :**
--bash
-git clone https://github.com/Bastien150/MoviDex.git
-cd MoviDex
-Installer les dépendances :
+- git clone https://github.com/Bastien150/MoviDex.git
+- cd MoviDex
 
--bash
-Copier le code
-npm install
-Configurer l’API TMDb :
+2. **Installer les dépendances :**
+
+Copier le code : 
+- npm install
+
+3. **Configurer l’API TMDb :**
 
 Crée un fichier .env à la racine avec ta clé TMDb :
-
-.env
 Copier le code
-VITE_TMDB_API_KEY=ta_clef_tmdb_ici
-VITE_TMDB_LANG=fr-FR
+- VITE_TMDB_API_KEY=ta_clef_tmdb_ici
+- VITE_TMDB_LANG=fr-FR
+
 Lancer le projet en développement :
 
-bash
 Copier le code
-npm run dev
+- npm run dev
+
 Ouvrir dans le navigateur :
-http://localhost:5173 (ou le port indiqué par Vite)
+- http://localhost:5173
