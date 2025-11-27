@@ -3,6 +3,7 @@ import { getPopular } from "../lib/tmdb";
 import { Link } from "react-router-dom";
 import MovieDetails from "./MovieDetails";
 import Pagination from "../components/Pagination";
+import Footer from "../components/footer";
 
 export default function Home() {
   const [listMovies, setListMovies] = useState([]);
@@ -22,14 +23,15 @@ export default function Home() {
   };
 
   return (
-    <div className="pt-16 pl-8">
+    <>
+    <div className="pt-16 pl-5 pr-8">
       <h1 className="text-3xl mb-4">Films Populaires :</h1>
       <div className="grid grid-cols-2 md:grid-cols-7 gap-4">
         {listMovies.map((movie) => (
           <Link
             to={"movie/" + movie.id}
             key={movie.id}
-            className="relative rounded-lg shadow-md overflow-hidden h-[450px] w-full"
+            className="relative rounded-lg shadow-md overflow-hidden h-[430px] w-full hover:scale-105 transition-transform"
             style={{
               backgroundImage: `url(https://image.tmdb.org/t/p/w300/${movie.poster_path})`,
               backgroundSize: "cover",
@@ -46,5 +48,7 @@ export default function Home() {
       </div>
       <Pagination currentPage={currentPage} onPageChange={handlePageChange}/>
     </div>
+    <Footer />
+    </>
   );
 }

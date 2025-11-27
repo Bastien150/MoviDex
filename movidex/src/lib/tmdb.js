@@ -24,9 +24,9 @@ export function getPopular(page = 1) {
   return tmdbFetch("/movie/popular", { page });
 }
 
-// Recherche
+// Recherche triée par popularité
 export function searchMovies(query, page = 1) {
-  return tmdbFetch("/search/movie", { query, page });
+  return tmdbFetch("/discover/movie", {sort_by: "popularity.desc", with_text_query: query, page});
 }
 
 // Détails film

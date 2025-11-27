@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SearchMovie from "../components/SearchMovie";
 
 export default function Navbar() {
   return (
@@ -10,13 +11,18 @@ export default function Navbar() {
           <span className="text-xl font-semibold text-heading whitespace-nowrap">MoviDex</span>
         </div>
 
+        {/* Barre de recherche */}
+        <div className="flex">
+          <SearchMovie />
+        </div>
+
         {/* Liens */}
         <ul className="flex items-center gap-6 text-sm font-medium">
           <li>
             <Link to="/" className="py-1 hover:opacity-80">Accueil</Link>
           </li>
           <li>
-            <Link to="/recherche" className="py-1 hover:opacity-80">Recherche</Link>
+            <Link to="/about" className="py-1 hover:opacity-80">À propos</Link>
           </li>
         </ul>
       </div>
