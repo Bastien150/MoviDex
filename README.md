@@ -2,7 +2,7 @@
 
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-green)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 
 ---
 
