@@ -12,6 +12,11 @@ Il permet de parcourir et d’afficher des informations sur des films, en utilis
 
 > Ce projet ne stocke aucune donnée, il ne fait que **consommer l’API TMDb et afficher les informations** dans une interface simple et responsive.
 
+| accueil | details d'un film |
+|---------|---------|
+| ![Accueil](https://github.com/Bastien150/MoviDex/blob/main/capture/index.png) | ![Detail](https://github.com/Bastien150/MoviDex/blob/main/capture/detailsMovie.png.png) |
+
+
 ---
 
 ## 🚀 Fonctionnalités
