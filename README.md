@@ -14,7 +14,7 @@ Il permet de parcourir et d’afficher des informations sur des films, en utilis
 
 | accueil | details d'un film |
 |---------|---------|
-| ![Accueil](https://github.com/Bastien150/MoviDex/blob/main/capture/index.png) | ![Detail](https://github.com/Bastien150/MoviDex/blob/main/capture/detailsMovie.png.png) |
+| ![Accueil](https://github.com/Bastien150/MoviDex/blob/main/capture/index.png) | ![Detail](https://github.com/Bastien150/MoviDex/blob/main/capture/detailsMovie.png) |
 
 
 ---
