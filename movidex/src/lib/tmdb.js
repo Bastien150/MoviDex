@@ -33,3 +33,8 @@ export function searchMovies(query, page = 1) {
 export function getMovieDetails(id, append = "") {
   return tmdbFetch(`/movie/${id}`, append ? { append_to_response: append } : {});
 }
+
+// Plateformes de streaming
+export function getPlateformMovieDetails(id, append = "") {
+  return tmdbFetch(`/movie/${id}/watch/providers`, append ? { append_to_response: append } : {});
+}
