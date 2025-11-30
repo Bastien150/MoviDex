@@ -8,7 +8,7 @@
 
 ## ✨ Présentation
 **MoviDex** est un projet personnel créé pour me familiariser avec **React** et **TailwindCSS**.  
-Il permet de parcourir et d’afficher des informations sur des films, en utilisant les données fournies par l’API **The Movie Database (TMDb)**.  
+Il permet de parcourir et d’afficher des informations sur des films, et de voir ou le regarder, en utilisant les données fournies par l’API **The Movie Database (TMDb)**.  
 
 > Ce projet ne stocke aucune donnée, il ne fait que **consommer l’API TMDb et afficher les informations** dans une interface simple et responsive.
 
